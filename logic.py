@@ -14,7 +14,7 @@ class BankLogic:
         """
         self.filename: str = filename
 
-    def _read_accounts(self) -> List[Dict[str, str]]:
+    def _read_accounts(self) -> List[Dict[str, str]]:#Got help from google
         """
         Method to read all account records from the file
         :return: list of accounts
@@ -31,7 +31,7 @@ class BankLogic:
 
         return accounts
 
-    def _write_accounts(self, accounts: List[Dict[str, str]]) -> None:
+    def _write_accounts(self, accounts: List[Dict[str, str]]) -> None:#Got help from google
         """
         Method to write account balance back to csv file
         :param accounts: List of account dictionaries to save
